@@ -11,11 +11,9 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support.ui import Select
 import getpass
 import time
 import configparser
-
 
 
 
@@ -26,22 +24,29 @@ import configparser
 #declared global var
 
 failureArray = []
-tierListSTR = input("Input which tiers you'd like to do, seperated by (,):")
-tierList = tierListSTR.split(",")
+
+
 #tierList = []
 
 #dataframe creation to seperate out price tiers
-df = pd.read_csv('PriceTieringNEW.csv')
+df = pd.read_csv('PriceTiering.csv')
 
 config = configparser.ConfigParser()
 config.read("config.ini")
 #init browser
 
+tierList = []
 
+for x in range(9):
+    currentTier = 'tier' + str(x+1)
+    if config['EditTiers'][currentTier] == "true":
+        tierList.append(x+1)
+print(tierList)
 
 #init browser
 
 username = config['SectionOne']['UserName']
+password = config['SectionOne']['Password']
 actualItemNumber = config['SectionOne']['ItemNumber']
 chrome_options = webdriver.ChromeOptions()
 chrome_driver_service = Service(executable_path = "chromedriver.exe")
@@ -94,8 +99,9 @@ def getToMenu():
     browser.find_element_by_link_text("Add new record").click()
 
 def selectAnOption(locationName):
-    #dropdown menu, need to figure out a way to select options from dropdown menu.\
-    locationName = "s "+locationName+" "
+    #dropdown menu, need to figure out a way to select options from dropdown menu.
+    if locationName == "Mesa":
+        locationName = "s "+locationName
     time.sleep(2)
     browser.find_element_by_xpath('//*[@id="tierprices-gridform"]/table/tbody/tr[1]/td[1]/div/div').click()
     time.sleep(1)

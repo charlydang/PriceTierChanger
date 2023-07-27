@@ -1,0 +1,374 @@
+Check,Value,Location
+1,52,Addison      
+1,318,Addison Roast     
+1,104,Alamo Ranch     
+1,331,Alamo Ranch Roast    
+1,232,Albany      
+1,130,Albuquerque      
+1,99,Allen      
+1,330,Allen Roast     
+1,208,Allentown      
+1,103,Alliance      
+1,272,Alliance Roast     
+1,165,Anaheim Hills     
+1,391,Anaheim Hills Roast    
+1,111,Arbor Walk     
+1,333,Arbor Walk Roast    
+1,13,Arcadia      
+1,113,Arden Fair     
+1,73,Arlington      
+1,269,Arlington Roast     
+1,71,Aurora      
+1,188,Avon      
+1,350,Avon Roast     
+1,25,Bakersfield      
+1,374,Bakersfield Roast     
+1,43,Balboa      
+1,90,Baton Rouge     
+1,387,Baton Rouge Roast    
+1,195,Beavercreek      
+1,287,Beavercreek Roast     
+1,225,Bloomington      
+1,359,Bloomington Roast     
+1,133,Boulder 29th Street    
+1,228,Bowie      
+1,10,Brea      
+1,261,Brea Roast     
+1,120,Brentwood      
+1,368,Brooks City Base    
+1,406,Brooks City Base Roast   
+1,16,Burbank      
+1,192,Canton      
+1,351,Canton Roast     
+1,32,Carlsbad      
+1,376,Carlsbad Roast     
+1,215,Cary      
+1,159,Cedar Park     
+1,347,Cedar Park Roast    
+1,114,Centennial      
+1,3,Century City     
+1,19,Cerritos      
+1,372,Cerritos Roast     
+1,49,Chandler      
+1,398,Chandler Ray Rd.    
+1,407,Chandler Ray Rd. Roast   
+1,382,Chandler Roast     
+1,218,Charlottesville      
+1,31,Chino Hills     
+1,255,Chino Hills Roast    
+1,30,Chula Vista     
+1,375,Chula Vista Roast    
+1,81,Citrus Park     
+1,296,Citrus Park Thighway    
+1,53,Clear Lake     
+1,266,Clear Lake Roast    
+1,124,Clearwater      
+1,299,Clearwater Thighway     
+1,116,College Station     
+1,335,College Station Roast    
+1,108,Colorado Springs     
+1,221,Columbia      
+1,227,Columbiana Station     
+1,100,Concord      
+1,308,Concord Mills     
+1,401,Concord Mills Roast    
+1,144,Coral Springs     
+1,302,Coral Springs Thighway    
+1,23,Corona      
+1,253,Corona Roast     
+1,150,Corpus Christi     
+1,343,Corpus Christi Roast    
+1,166,Cottonwood Mall     
+1,314,Craig Road     
+1,404,Craig Road Roast    
+1,34,Culver City     
+1,264,Culver City Roast    
+1,51,Cupertino      
+1,146,Dayton      
+1,286,Dayton Roast     
+1,106,Daytona      
+1,29,Del Amo     
+1,254,Del Amo Roast    
+1,280,Del Amo Thighway    
+1,158,Denton      
+1,346,Denton Roast     
+1,242,Denver West     
+1,65,Desert Ridge     
+1,385,Desert Ridge Roast    
+1,33,Downey      
+1,377,Downey Roast     
+1,127,Dublin      
+1,176,Easton Town Center    
+1,349,Easton Town Center Roast   
+1,74,El Paso     
+1,320,El Paso Roast    
+1,69,Elk Grove     
+1,35,Escondido      
+1,378,Escondido Roast     
+1,239,Evansville      
+1,361,Evansville Roast     
+1,193,Fairlawn Summit Mall    
+1,352,Fairlawn Summit Mall Roast   
+1,142,Florence      
+1,285,Florence Roast     
+1,59,Folsom      
+1,140,Fort Collins     
+1,162,Fort Myers     
+1,223,Fort Wayne     
+1,357,Fort Wayne Roast    
+1,310,Framingham      
+1,402,Framingham Roast     
+1,147,Frederick      
+1,226,Fredericksburg      
+1,360,Fredericksburg Roast     
+1,57,Fresno      
+1,96,Gainesville      
+1,297,Gainesville Thighway     
+1,28,Glendale      
+1,315,Goodyear      
+1,405,Goodyear Roast     
+1,89,Greenwood      
+1,327,Greenwood Roast     
+1,231,Hagerstown      
+1,97,Henderson      
+1,134,Hillsboro      
+1,118,Hulen Mall     
+1,274,Hulen Mall Roast    
+1,7,Huntington Beach - Beach Blvd  
+1,9,Huntington Beach - Main St  
+1,370,Huntington Beach - Main St Roast 
+1,177,Huntsville      
+1,392,Huntsville Roast     
+1,101,Hurst      
+1,271,Hurst Roast     
+1,154,I-Drive Orlando     
+1,8,Irvine      
+1,369,Irvine Roast     
+1,277,Irvine Thighway     
+1,117,Jacksonville      
+1,143,Jacksonville North     
+1,47,Jantzen Beach     
+1,153,Katy      
+1,345,Katy Roast     
+1,87,Kissimmee      
+1,214,La Jolla     
+1,396,La Jolla Roast    
+1,14,La Mesa     
+1,371,La Mesa Roast    
+1,278,La Mesa Thighway    
+1,200,Lafayette      
+1,395,Lafayette Roast     
+1,45,Laguna Beach     
+1,21,Laguna Hills     
+1,252,Laguna Hills Roast    
+1,279,Laguna Hills Thighway    
+1,145,Lake Buena Vista    
+1,206,Lancaster      
+1,275,Lansing      
+1,294,Lansing Roast     
+1,311,Las Vegas     
+1,403,Las Vegas Roast    
+1,161,Laurel      
+1,50,Lewisville      
+1,265,Lewisville Roast     
+1,207,Lexington      
+1,288,Lexington Roast     
+1,309,Live Oak     
+1,365,Live Oak Roast    
+1,233,Livonia      
+1,290,Livonia Roast     
+1,194,Longview      
+1,353,Longview Roast     
+1,135,Lubbock      
+1,340,Lubbock Roast     
+1,238,Manchester      
+1,79,McAllen      
+1,323,McAllen Roast     
+1,174,McCandless      
+1,179,Melbourne      
+1,39,Menifee      
+1,380,Menifee Roast     
+1,210,Mentor      
+1,354,Mentor Roast     
+1,259,Merrillville      
+1,364,Merrillville Roast     
+1,64,Mesa      
+1,384,Mesa Roast     
+1,98,Mesquite      
+1,329,Mesquite Roast     
+1,132,Miami Falls     
+1,301,Miami Falls Thighway    
+1,131,Miami Int. Mall    
+1,300,Miami Int. Mall Thighway   
+1,68,Millenia Mall     
+1,40,Mission Valley     
+1,381,Mission Valley Roast    
+1,281,Mission Valley Thighway    
+1,222,Mobile      
+1,306,Mobile Thighway     
+1,88,Modesto      
+1,27,Montebello      
+1,22,Moreno Valley     
+1,263,Moreno Valley Roast    
+1,178,Murfreesboro      
+1,393,Murfreesboro Roast     
+1,163,Nanuet      
+1,70,Natomas      
+1,128,New Braunfels     
+1,339,New Braunfels Roast    
+1,94,Newark      
+1,191,Newport News     
+1,220,Noblesville      
+1,356,Noblesville Roast     
+1,77,Norman      
+1,322,Norman Roast     
+1,243,North Attleboro     
+1,189,North Little Rock    
+1,394,North Little Rock Roast   
+1,219,North Olmsted     
+1,355,North Olmsted Roast    
+1,139,OKC Outlets     
+1,342,OKC Outlets Roast    
+1,80,Oklahoma City     
+1,324,Oklahoma City Roast    
+1,244,Orange Village     
+1,363,Orange Village Roast    
+1,397,Orland Park     
+1,41,Outlets at Orange    
+1,282,Outlets at Orange Thighway   
+1,157,Oviedo      
+1,85,Oxmoor Center Mall    
+1,284,Oxmoor Center Mall Roast   
+1,17,Oxnard      
+1,262,Oxnard Roast     
+1,155,Palm Beach Fashion Mall   
+1,26,Palmdale      
+1,38,Pasadena      
+1,257,Pasadena Roast     
+1,93,Pearland      
+1,270,Pearland Roast     
+1,115,Pembroke Pines     
+1,298,Pembroke Pines Thighway    
+1,201,Pensacola      
+1,304,Pensacola Thighway     
+1,86,Peoria      
+1,386,Peoria Roast     
+1,76,Pinellas Park     
+1,295,Pinellas Park Thighway    
+1,60,Plano      
+1,319,Plano Roast     
+1,75,Polaris      
+1,321,Polaris Roast     
+1,36,Puente Hills     
+1,379,Puente Hills Roast    
+1,137,Puyallup      
+1,4,Rancho Cucamonga     
+1,260,Rancho Cucamonga Roast    
+1,37,Rancho Santa Margarita    
+1,256,Rancho Santa Margarita Roast   
+1,136,Redmond      
+1,72,Reno      
+1,160,Richmond      
+1,400,Richmond Roast     
+1,399,Rochester      
+1,408,Rochester Roast     
+1,234,Rookwood      
+1,291,Rookwood Roast     
+1,58,Roseville      
+1,125,Round Rock     
+1,338,Round Rock Roast    
+1,126,Salinas      
+1,92,San Antonio     
+1,328,San Antonio Roast    
+1,20,San Bernardino     
+1,251,San Bernardino Roast    
+1,61,San Bruno     
+1,54,San Jose     
+1,149,San Jose Marketcenter    
+1,5,San Mateo     
+1,102,San Rafael     
+1,123,Santa Rosa     
+1,152,Shackleford Crossing     
+1,389,Shackleford Crossing Roast    
+1,110,Shenandoah      
+1,273,Shenandoah Roast     
+1,164,Slidell      
+1,390,Slidell Roast     
+1,209,South Hills     
+1,91,Southcenter Mall     
+1,173,Southlake      
+1,348,Southlake Roast     
+1,109,Sparks      
+1,236,Sterling Heights     
+1,293,Sterling Heights Roast    
+1,78,Stockton      
+1,62,Sugar Land     
+1,268,Sugarland Roast     
+1,56,Summerlin      
+1,84,Sunset Valley     
+1,326,Sunset Valley Roast    
+1,95,Tacoma      
+1,148,Tallahassee      
+1,303,Tallahassee Thighway     
+1,229,Taylor      
+1,289,Taylor Roast     
+1,24,Temecula      
+1,373,Temecula Roast     
+1,83,Temple      
+1,325,Temple Roast     
+1,6,Test Lab     
+1,307,Test Lab Fiji    
+1,205,Test Lab Paris    
+1,276,Test Lab Thighway    
+1,211,Teterboro      
+1,105,The Rim     
+1,332,The Rim Roast    
+1,235,Toledo      
+1,292,Toledo Roast     
+1,237,Toms River     
+1,175,Towson      
+1,82,Tri-County Mall     
+1,283,Tri-County Mall Roast    
+1,107,Tucson Broadway     
+1,388,Tucson Broadway Roast    
+1,63,Tucson Oracle     
+1,383,Tucson Oracle Roast    
+1,240,Tulsa      
+1,241,Tulsa n/a     
+1,362,Tulsa Roast     
+1,119,Tuttle Crossing     
+1,336,Tuttle Crossing Roast    
+1,112,Tyler      
+1,334,Tyler Roast     
+1,66,Vacaville      
+1,11,Valencia      
+1,141,Valley River     
+1,212,Valley Stream     
+1,197,Victorville      
+1,258,Victorville Roast     
+1,138,Vienna      
+1,341,Vienna Roast     
+1,151,Virginia Gateway     
+1,344,Virginia Gateway Roast    
+1,122,Waco      
+1,337,Waco Roast     
+1,230,Warwick      
+1,213,Wesley Chapel     
+1,305,Wesley Chapel Thighway    
+1,15,West Covina     
+1,249,West Covina Roast    
+1,18,Westlake Village     
+1,250,Westlake Village Roast    
+1,67,Westminster      
+1,48,Westwood      
+1,129,Wichita      
+1,55,Willowbrook      
+1,267,Willowbrook Roast     
+1,198,Winston Salem     
+1,12,Woodland Hills     
+1,248,Woodland Hills Roast    
+1,224,Youngstown      
+1,358,Youngstown Roast     
+1,245,Roast      
+1,246,Roast 2     
+1,247,Roast Lab     
