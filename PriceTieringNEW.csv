@@ -1,374 +1,470 @@
-Location,Price Tier
-Addison      ,4
-Addison Roast     ,3
-Alamo Ranch     ,6
-Alamo Ranch Roast    ,5
-Albany      ,5
-Albuquerque      ,5
-Allen      ,5
-Allen Roast     ,5
-Allentown      ,5
-Alliance      ,5
-Alliance Roast     ,5
-Anaheim Hills     ,5
-Anaheim Hills Roast    ,5
-Arbor Walk     ,5
-Arbor Walk Roast    ,5
-Arcadia      ,5
-Arden Fair     ,5
-Arlington      ,5
-Arlington Roast     ,5
-Aurora      ,5
-Avon      ,5
-Avon Roast     ,5
-Bakersfield      ,5
-Bakersfield Roast     ,5
-Balboa      ,5
-Baton Rouge     ,5
-Baton Rouge Roast    ,5
-Beavercreek      ,5
-Beavercreek Roast     ,5
-Bloomington      ,5
-Bloomington Roast     ,5
-Boulder 29th Street    ,5
-Bowie      ,5
-Brea      ,5
-Brea Roast     ,5
-Brentwood      ,5
-Brooks City Base    ,5
-Brooks City Base Roast   ,5
-Burbank      ,5
-Canton      ,5
-Canton Roast     ,5
-Carlsbad      ,5
-Carlsbad Roast     ,5
-Cary      ,5
-Cedar Park     ,5
-Cedar Park Roast    ,5
-Centennial      ,5
-Century City     ,5
-Cerritos      ,5
-Cerritos Roast     ,5
-Chandler      ,5
-Chandler Ray Rd.    ,5
-Chandler Ray Rd. Roast   ,5
-Chandler Roast     ,5
-Charlottesville      ,5
-Chino Hills     ,5
-Chino Hills Roast    ,5
-Chula Vista     ,5
-Chula Vista Roast    ,5
-Citrus Park     ,5
-Citrus Park Thighway    ,5
-Clear Lake     ,5
-Clear Lake Roast    ,5
-Clearwater      ,5
-Clearwater Thighway     ,5
-College Station     ,5
-College Station Roast    ,5
-Colorado Springs     ,5
-Columbia      ,5
-Columbiana Station     ,5
-Concord      ,5
-Concord Mills     ,5
-Concord Mills Roast    ,5
-Coral Springs     ,5
-Coral Springs Thighway    ,5
-Corona      ,5
-Corona Roast     ,5
-Corpus Christi     ,5
-Corpus Christi Roast    ,5
-Cottonwood Mall     ,5
-Craig Road     ,5
-Craig Road Roast    ,5
-Culver City     ,5
-Culver City Roast    ,5
-Cupertino      ,5
-Dayton      ,5
-Dayton Roast     ,5
-Daytona      ,5
-Del Amo     ,5
-Del Amo Roast    ,5
-Del Amo Thighway    ,5
-Denton      ,5
-Denton Roast     ,5
-Denver West     ,5
-Desert Ridge     ,5
-Desert Ridge Roast    ,5
-Downey      ,5
-Downey Roast     ,5
-Dublin      ,5
-Easton Town Center    ,5
-Easton Town Center Roast   ,5
-El Paso     ,5
-El Paso Roast    ,5
-Elk Grove     ,5
-Escondido      ,5
-Escondido Roast     ,5
-Evansville      ,5
-Evansville Roast     ,5
-Fairlawn Summit Mall    ,5
-Fairlawn Summit Mall Roast   ,5
-Florence      ,5
-Florence Roast     ,5
-Folsom      ,5
-Fort Collins     ,5
-Fort Myers     ,5
-Fort Wayne     ,5
-Fort Wayne Roast    ,5
-Framingham      ,5
-Framingham Roast     ,5
-Frederick      ,5
-Fredericksburg      ,5
-Fredericksburg Roast     ,5
-Fresno      ,5
-Gainesville      ,5
-Gainesville Thighway     ,5
-Glendale      ,5
-Goodyear      ,5
-Goodyear Roast     ,5
-Greenwood      ,5
-Greenwood Roast     ,5
-Hagerstown      ,5
-Henderson      ,5
-Hillsboro      ,5
-Hulen Mall     ,5
-Hulen Mall Roast    ,5
-Huntington Beach - Beach Blvd  ,5
-Huntington Beach - Main St  ,5
-Huntington Beach - Main St Roast ,5
-Huntsville      ,5
-Huntsville Roast     ,5
-Hurst      ,5
-Hurst Roast     ,5
-I-Drive Orlando     ,5
-Irvine      ,5
-Irvine Roast     ,5
-Irvine Thighway     ,5
-Jacksonville      ,5
-Jacksonville North     ,5
-Jantzen Beach     ,5
-Katy      ,5
-Katy Roast     ,5
-Kissimmee      ,5
-La Jolla     ,5
-La Jolla Roast    ,5
-La Mesa     ,5
-La Mesa Roast    ,5
-La Mesa Thighway    ,5
-Lafayette      ,5
-Lafayette Roast     ,5
-Laguna Beach     ,5
-Laguna Hills     ,5
-Laguna Hills Roast    ,5
-Laguna Hills Thighway    ,5
-Lake Buena Vista    ,5
-Lancaster      ,5
-Lansing      ,5
-Lansing Roast     ,5
-Las Vegas     ,5
-Las Vegas Roast    ,5
-Laurel      ,5
-Lewisville      ,5
-Lewisville Roast     ,5
-Lexington      ,5
-Lexington Roast     ,5
-Live Oak     ,5
-Live Oak Roast    ,5
-Livonia      ,5
-Livonia Roast     ,5
-Longview      ,5
-Longview Roast     ,5
-Lubbock      ,5
-Lubbock Roast     ,5
-Manchester      ,5
-McAllen      ,5
-McAllen Roast     ,5
-McCandless      ,5
-Melbourne      ,5
-Menifee      ,5
-Menifee Roast     ,5
-Mentor      ,5
-Mentor Roast     ,5
-Merrillville      ,5
-Merrillville Roast     ,5
-Mesa      ,5
-Mesa Roast     ,5
-Mesquite      ,5
-Mesquite Roast     ,5
-Miami Falls     ,5
-Miami Falls Thighway    ,5
-Miami Int. Mall    ,5
-Miami Int. Mall Thighway   ,5
-Millenia Mall     ,5
-Mission Valley     ,5
-Mission Valley Roast    ,5
-Mission Valley Thighway    ,5
-Mobile      ,5
-Mobile Thighway     ,5
-Modesto      ,5
-Montebello      ,5
-Moreno Valley     ,5
-Moreno Valley Roast    ,5
-Murfreesboro      ,5
-Murfreesboro Roast     ,5
-Nanuet      ,5
-Natomas      ,5
-New Braunfels     ,5
-New Braunfels Roast    ,5
-Newark      ,5
-Newport News     ,5
-Noblesville      ,5
-Noblesville Roast     ,5
-Norman      ,5
-Norman Roast     ,5
-North Attleboro     ,5
-North Little Rock    ,5
-North Little Rock Roast   ,5
-North Olmsted     ,5
-North Olmsted Roast    ,5
-OKC Outlets     ,5
-OKC Outlets Roast    ,5
-Oklahoma City     ,5
-Oklahoma City Roast    ,5
-Orange Village     ,5
-Orange Village Roast    ,5
-Orland Park     ,5
-Outlets at Orange    ,5
-Outlets at Orange Thighway   ,5
-Oviedo      ,5
-Oxmoor Center Mall    ,5
-Oxmoor Center Mall Roast   ,5
-Oxnard      ,5
-Oxnard Roast     ,5
-Palm Beach Fashion Mall   ,5
-Palmdale      ,5
-Pasadena      ,5
-Pasadena Roast     ,5
-Pearland      ,5
-Pearland Roast     ,5
-Pembroke Pines     ,5
-Pembroke Pines Thighway    ,5
-Pensacola      ,5
-Pensacola Thighway     ,5
-Peoria      ,5
-Peoria Roast     ,5
-Pinellas Park     ,5
-Pinellas Park Thighway    ,5
-Plano      ,5
-Plano Roast     ,5
-Polaris      ,5
-Polaris Roast     ,5
-Puente Hills     ,5
-Puente Hills Roast    ,5
-Puyallup      ,5
-Rancho Cucamonga     ,5
-Rancho Cucamonga Roast    ,5
-Rancho Santa Margarita    ,5
-Rancho Santa Margarita Roast   ,5
-Redmond      ,5
-Reno      ,5
-Richmond      ,5
-Richmond Roast     ,5
-Rochester      ,5
-Rochester Roast     ,5
-Rookwood      ,5
-Rookwood Roast     ,5
-Roseville      ,5
-Round Rock     ,5
-Round Rock Roast    ,5
-Salinas      ,5
-San Antonio     ,5
-San Antonio Roast    ,5
-San Bernardino     ,5
-San Bernardino Roast    ,5
-San Bruno     ,5
-San Jose     ,5
-San Jose Marketcenter    ,5
-San Mateo     ,5
-San Rafael     ,5
-Santa Rosa     ,5
-Shackleford Crossing     ,5
-Shackleford Crossing Roast    ,5
-Shenandoah      ,5
-Shenandoah Roast     ,5
-Slidell      ,5
-Slidell Roast     ,5
-South Hills     ,5
-Southcenter Mall     ,5
-Southlake      ,5
-Southlake Roast     ,5
-Sparks      ,5
-Sterling Heights     ,5
-Sterling Heights Roast    ,5
-Stockton      ,5
-Sugar Land     ,5
-Sugarland Roast     ,5
-Summerlin      ,5
-Sunset Valley     ,5
-Sunset Valley Roast    ,5
-Tacoma      ,5
-Tallahassee      ,5
-Tallahassee Thighway     ,5
-Taylor      ,5
-Taylor Roast     ,5
-Temecula      ,5
-Temecula Roast     ,5
-Temple      ,5
-Temple Roast     ,5
-Test Lab     ,5
-Test Lab Fiji    ,5
-Test Lab Paris    ,5
-Test Lab Thighway    ,5
-Teterboro      ,5
-The Rim     ,5
-The Rim Roast    ,5
-Toledo      ,5
-Toledo Roast     ,5
-Toms River     ,5
-Towson      ,5
-Tri-County Mall     ,5
-Tri-County Mall Roast    ,5
-Tucson Broadway     ,5
-Tucson Broadway Roast    ,5
-Tucson Oracle     ,5
-Tucson Oracle Roast    ,5
-Tulsa      ,5
-Tulsa n/a     ,5
-Tulsa Roast     ,5
-Tuttle Crossing     ,5
-Tuttle Crossing Roast    ,5
-Tyler      ,5
-Tyler Roast     ,5
-Vacaville      ,5
-Valencia      ,5
-Valley River     ,5
-Valley Stream     ,5
-Victorville      ,5
-Victorville Roast     ,5
-Vienna      ,5
-Vienna Roast     ,5
-Virginia Gateway     ,5
-Virginia Gateway Roast    ,5
-Waco      ,5
-Waco Roast     ,5
-Warwick      ,5
-Wesley Chapel     ,5
-Wesley Chapel Thighway    ,5
-West Covina     ,5
-West Covina Roast    ,5
-Westlake Village     ,5
-Westlake Village Roast    ,5
-Westminster      ,5
-Westwood      ,5
-Wichita      ,5
-Willowbrook      ,5
-Willowbrook Roast     ,5
-Winston Salem     ,5
-Woodland Hills     ,5
-Woodland Hills Roast    ,5
-Youngstown      ,5
-Youngstown Roast     ,5
-Roast      ,5
-Roast 2     ,5
-Roast Lab     ,5
+Check,Value,Location
+0,52,BJ's Addison
+0,318,BJ's Addison Roast
+0,104,BJ's Alamo Ranch
+0,331,BJ's Alamo Ranch Roast
+0,232,BJ's Albany
+0,498,BJ's Albany Roast
+0,130,BJ's Albuquerque
+0,456,BJ's Albuquerque Roast
+0,99,BJ's Allen
+0,330,BJ's Allen Roast
+0,208,BJ's Allentown
+0,491,BJ's Allentown Roast
+0,103,BJ's Alliance
+0,272,BJ's Alliance Roast
+0,165,BJ's Anaheim Hills
+0,391,BJ's Anaheim Hills Roast
+0,111,BJ's Arbor Walk
+0,333,BJ's Arbor Walk Roast
+0,13,BJ's Arcadia
+0,411,BJ's Arcadia Roast
+0,113,BJ's Arden Fair
+0,445,BJ's Arden Fair Roast
+0,73,BJ's Arlington
+0,269,BJ's Arlington Roast
+0,71,BJ's Aurora
+0,426,BJ's Aurora Roast
+0,188,BJ's Avon
+0,350,BJ's Avon Roast
+0,25,BJ's Bakersfield
+0,374,BJ's Bakersfield Roast
+0,43,BJ's Balboa
+0,90,BJ's Baton Rouge
+0,387,BJ's Baton Rouge Roast
+0,195,BJ's Beavercreek
+0,287,BJ's Beavercreek Roast
+0,225,BJ's Bloomington
+0,359,BJ's Bloomington Roast
+0,133,BJ's Boulder 29th Street
+0,459,BJ's Boulder 29th Street Roast
+0,228,BJ's Bowie
+0,495,BJ's Bowie Roast
+0,10,BJ's Brea
+0,261,BJ's Brea Roast
+0,120,BJ's Brentwood
+0,450,BJ's Brentwood Roast
+0,368,BJ's Brooks City Base
+0,406,BJ's Brooks City Base Roast
+0,16,BJ's Burbank
+0,412,BJ's Burbank Roast
+0,192,BJ's Canton
+0,351,BJ's Canton Roast
+0,32,BJ's Carlsbad
+0,376,BJ's Carlsbad Roast
+0,215,BJ's Cary
+0,489,BJ's Cary Roast
+0,159,BJ's Cedar Park
+0,347,BJ's Cedar Park Roast
+0,114,BJ's Centennial
+0,446,BJ's Centennial Roast
+0,3,BJ's Century City
+0,448,BJ's Century City Roast
+0,19,BJ's Cerritos
+0,372,BJ's Cerritos Roast
+0,49,BJ's Chandler
+0,398,BJ's Chandler Ray Rd.
+0,407,BJ's Chandler Ray Rd. Roast
+0,382,BJ's Chandler Roast
+0,218,BJ's Charlottesville
+0,490,BJ's Charlottesville Roast
+0,31,BJ's Chino Hills
+0,255,BJ's Chino Hills Roast
+0,30,BJ's Chula Vista
+0,375,BJ's Chula Vista Roast
+0,81,BJ's Citrus Park
+0,432,BJ's Citrus Park Roast
+0,296,BJ's Citrus Park Thighway
+0,53,BJ's Clear Lake
+0,266,BJ's Clear Lake Roast
+0,124,BJ's Clearwater
+0,452,BJ's Clearwater Roast
+0,299,BJ's Clearwater Thighway
+0,116,BJ's College Station
+0,335,BJ's College Station Roast
+0,108,BJ's Colorado Springs
+0,443,BJ's Colorado Springs Roast
+0,221,BJ's Columbia
+0,486,BJ's Columbia Roast
+0,227,BJ's Columbiana Station
+0,494,BJ's Columbiana Station Roast
+0,100,BJ's Concord
+0,308,BJ's Concord Mills
+0,401,BJ's Concord Mills Roast
+0,441,BJ's Concord Roast
+0,144,BJ's Coral Springs
+0,466,BJ's Coral Springs Roast
+0,302,BJ's Coral Springs Thighway
+0,23,BJ's Corona
+0,253,BJ's Corona Roast
+0,150,BJ's Corpus Christi
+0,343,BJ's Corpus Christi Roast
+0,166,BJ's Cottonwood Mall
+0,479,BJ's Cottonwood Mall Roast
+0,314,BJ's Craig Road
+0,404,BJ's Craig Road Roast
+0,34,BJ's Culver City
+0,264,BJ's Culver City Roast
+0,51,BJ's Cupertino
+0,413,BJ's Cupertino Roast
+0,146,BJ's Dayton
+0,286,BJ's Dayton Roast
+0,106,BJ's Daytona
+0,442,BJ's Daytona Roast
+0,29,BJ's Del Amo
+0,254,BJ's Del Amo Roast
+0,280,BJ's Del Amo Thighway
+0,158,BJ's Denton
+0,346,BJ's Denton Roast
+0,242,BJ's Denver West
+0,502,BJ's Denver West Roast
+0,65,BJ's Desert Ridge
+0,385,BJ's Desert Ridge Roast
+0,33,BJ's Downey
+0,377,BJ's Downey Roast
+0,127,BJ's Dublin
+0,454,BJ's Dublin Roast
+0,176,BJ's Easton Town Center
+0,349,BJ's Easton Town Center Roast
+0,74,BJ's El Paso
+0,320,BJ's El Paso Roast
+0,69,BJ's Elk Grove
+0,424,BJ's Elk Grove Roast
+0,35,BJ's Escondido
+0,378,BJ's Escondido Roast
+0,239,BJ's Evansville
+0,361,BJ's Evansville Roast
+0,193,BJ's Fairlawn Summit Mall
+0,352,BJ's Fairlawn Summit Mall Roast
+0,142,BJ's Florence
+0,285,BJ's Florence Roast
+0,59,BJ's Folsom
+0,418,BJ's Folsom Roast
+0,140,BJ's Fort Collins
+0,463,BJ's Fort Collins Roast
+0,162,BJ's Fort Myers
+0,478,BJ's Fort Myers Roast
+0,223,BJ's Fort Wayne
+0,357,BJ's Fort Wayne Roast
+0,310,BJ's Framingham
+0,402,BJ's Framingham Roast
+0,147,BJ's Frederick
+0,468,BJ's Frederick Roast
+0,226,BJ's Fredericksburg
+0,360,BJ's Fredericksburg Roast
+0,57,BJ's Fresno
+0,416,BJ's Fresno Roast
+0,96,BJ's Gainesville
+0,439,BJ's Gainesville Roast
+0,297,BJ's Gainesville Thighway
+0,28,BJ's Glendale
+0,433,BJ's Glendale Roast
+0,315,BJ's Goodyear
+0,405,BJ's Goodyear Roast
+0,505,BJ's Grand Rapids Center
+0,89,BJ's Greenwood
+0,327,BJ's Greenwood Roast
+0,231,BJ's Hagerstown
+0,496,BJ's Hagerstown Roast
+0,97,BJ's Henderson
+0,440,BJ's Henderson Roast
+0,134,BJ's Hillsboro
+0,460,BJ's Hillsboro Roast
+0,118,BJ's Hulen Mall
+0,274,BJ's Hulen Mall Roast
+0,7,BJ's Huntington Beach - Beach Blvd
+0,9,BJ's Huntington Beach - Main St
+0,370,BJ's Huntington Beach - Main St Roast
+0,177,BJ's Huntsville
+0,392,BJ's Huntsville Roast
+0,101,BJ's Hurst
+0,271,BJ's Hurst Roast
+0,154,BJ's I-Drive Orlando
+0,472,BJ's I-Drive Orlando Roast
+0,8,BJ's Irvine
+0,369,BJ's Irvine Roast
+0,277,BJ's Irvine Thighway
+0,117,BJ's Jacksonville
+0,143,BJ's Jacksonville North
+0,465,BJ's Jacksonville North Roast
+0,449,BJ's Jacksonville Roast
+0,47,BJ's Jantzen Beach
+0,153,BJ's Katy
+0,345,BJ's Katy Roast
+0,87,BJ's Kissimmee
+0,434,BJ's Kissimmee Roast
+0,214,BJ's La Jolla
+0,396,BJ's La Jolla Roast
+0,14,BJ's La Mesa
+0,371,BJ's La Mesa Roast
+0,278,BJ's La Mesa Thighway
+0,200,BJ's Lafayette
+0,395,BJ's Lafayette Roast
+0,45,BJ's Laguna Beach
+0,21,BJ's Laguna Hills
+0,252,BJ's Laguna Hills Roast
+0,279,BJ's Laguna Hills Thighway
+0,145,BJ's Lake Buena Vista
+0,467,BJ's Lake Buena Vista Roast
+0,206,BJ's Lancaster
+0,483,BJ's Lancaster Roast
+0,275,BJ's Lansing
+0,294,BJ's Lansing Roast
+0,311,BJ's Las Vegas
+0,403,BJ's Las Vegas Roast
+0,161,BJ's Laurel
+0,476,BJ's Laurel Roast
+0,50,BJ's Lewisville
+0,265,BJ's Lewisville Roast
+0,207,BJ's Lexington
+0,288,BJ's Lexington Roast
+0,309,BJ's Live Oak
+0,365,BJ's Live Oak Roast
+0,233,BJ's Livonia
+0,290,BJ's Livonia Roast
+0,194,BJ's Longview
+0,353,BJ's Longview Roast
+0,135,BJ's Lubbock
+0,340,BJ's Lubbock Roast
+0,238,BJ's Manchester
+0,501,BJ's Manchester Roast
+0,79,BJ's McAllen
+0,323,BJ's McAllen Roast
+0,174,BJ's McCandless
+0,480,BJ's McCandless Roast
+0,179,BJ's Melbourne
+0,481,BJ's Melbourne Roast
+0,39,BJ's Menifee
+0,380,BJ's Menifee Roast
+0,210,BJ's Mentor
+0,354,BJ's Mentor Roast
+0,259,BJ's Merrillville
+0,364,BJ's Merrillville Roast
+0,64,BJ's Mesa
+0,384,BJ's Mesa Roast
+0,98,BJ's Mesquite
+0,329,BJ's Mesquite Roast
+0,132,BJ's Miami Falls
+0,458,BJ's Miami Falls Roast
+0,301,BJ's Miami Falls Thighway
+0,131,BJ's Miami Int. Mall
+0,457,BJ's Miami Int. Mall Roast
+0,300,BJ's Miami Int. Mall Thighway
+0,68,BJ's Millenia Mall
+0,423,BJ's Millenia Mall Roast
+0,40,BJ's Mission Valley
+0,381,BJ's Mission Valley Roast
+0,281,BJ's Mission Valley Thighway
+0,222,BJ's Mobile
+0,493,BJ's Mobile Roast
+0,306,BJ's Mobile Thighway
+0,88,BJ's Modesto
+0,435,BJ's Modesto Roast
+0,27,BJ's Montebello
+0,431,BJ's Montebello Roast
+0,22,BJ's Moreno Valley
+0,263,BJ's Moreno Valley Roast
+0,178,BJ's Murfreesboro
+0,393,BJ's Murfreesboro Roast
+0,163,BJ's Nanuet
+0,474,BJ's Nanuet Roast
+0,70,BJ's Natomas
+0,425,BJ's Natomas Roast
+0,128,BJ's New Braunfels
+0,339,BJ's New Braunfels Roast
+0,94,BJ's Newark
+0,437,BJ's Newark Roast
+0,191,BJ's Newport News
+0,477,BJ's Newport News Roast
+0,220,BJ's Noblesville
+0,356,BJ's Noblesville Roast
+0,77,BJ's Norman
+0,322,BJ's Norman Roast
+0,243,BJ's North Attleboro
+0,499,BJ's North Attleboro Roast
+0,189,BJ's North Little Rock
+0,394,BJ's North Little Rock Roast
+0,219,BJ's North Olmsted
+0,355,BJ's North Olmsted Roast
+0,139,BJ's OKC Outlets
+0,342,BJ's OKC Outlets Roast
+0,80,BJ's Oklahoma City
+0,324,BJ's Oklahoma City Roast
+0,244,BJ's Orange Village
+0,363,BJ's Orange Village Roast
+0,397,BJ's Orland Park
+0,503,BJ's Orland Park Roast
+0,41,BJ's Outlets at Orange
+0,282,BJ's Outlets at Orange Thighway
+0,157,BJ's Oviedo
+0,475,BJ's Oviedo Roast
+0,85,BJ's Oxmoor Center Mall
+0,284,BJ's Oxmoor Center Mall Roast
+0,17,BJ's Oxnard
+0,262,BJ's Oxnard Roast
+0,155,BJ's Palm Beach Fashion Mall
+0,473,BJ's Palm Beach Fashion Mall Roast
+0,26,BJ's Palmdale
+0,429,BJ's Palmdale Roast
+0,38,BJ's Pasadena
+0,257,BJ's Pasadena Roast
+0,93,BJ's Pearland
+0,270,BJ's Pearland Roast
+0,115,BJ's Pembroke Pines
+0,447,BJ's Pembroke Pines Roast
+0,298,BJ's Pembroke Pines Thighway
+0,201,BJ's Pensacola
+0,484,BJ's Pensacola Roast
+0,304,BJ's Pensacola Thighway
+0,86,BJ's Peoria
+0,386,BJ's Peoria Roast
+0,76,BJ's Pinellas Park
+0,428,BJ's Pinellas Park Roast
+0,295,BJ's Pinellas Park Thighway
+0,60,BJ's Plano
+0,319,BJ's Plano Roast
+0,75,BJ's Polaris
+0,321,BJ's Polaris Roast
+0,36,BJ's Puente Hills
+0,379,BJ's Puente Hills Roast
+0,137,BJ's Puyallup
+0,462,BJ's Puyallup Roast
+0,4,BJ's Rancho Cucamonga
+0,260,BJ's Rancho Cucamonga Roast
+0,37,BJ's Rancho Santa Margarita
+0,256,BJ's Rancho Santa Margarita Roast
+0,136,BJ's Redmond
+0,461,BJ's Redmond Roast
+0,72,BJ's Reno
+0,427,BJ's Reno Roast
+0,160,BJ's Richmond
+0,400,BJ's Richmond Roast
+0,399,BJ's Rochester
+0,408,BJ's Rochester Roast
+0,234,BJ's Rookwood
+0,291,BJ's Rookwood Roast
+0,58,BJ's Roseville
+0,417,BJ's Roseville Roast
+0,125,BJ's Round Rock
+0,338,BJ's Round Rock Roast
+0,126,BJ's Salinas
+0,453,BJ's Salinas Roast
+0,92,BJ's San Antonio
+0,328,BJ's San Antonio Roast
+0,20,BJ's San Bernardino
+0,251,BJ's San Bernardino Roast
+0,61,BJ's San Bruno
+0,419,BJ's San Bruno Roast
+0,54,BJ's San Jose
+0,149,BJ's San Jose Marketcenter
+0,470,BJ's San Jose Marketcenter Roast
+0,414,BJ's San Jose Roast
+0,5,BJ's San Mateo
+0,420,BJ's San Mateo Roast
+0,102,BJ's San Rafael
+0,123,BJ's Santa Rosa
+0,451,BJ's Santa Rosa Roast
+0,152,BJ's Shackleford Crossing
+0,389,BJ's Shackleford Crossing Roast
+0,110,BJ's Shenandoah
+0,273,BJ's Shenandoah Roast
+0,164,BJ's Slidell
+0,390,BJ's Slidell Roast
+0,209,BJ's South Hills
+0,487,BJ's South Hills Roast
+0,91,BJ's Southcenter Mall
+0,436,BJ's Southcenter Mall Roast
+0,173,BJ's Southlake
+0,348,BJ's Southlake Roast
+0,109,BJ's Sparks
+0,444,BJ's Sparks Roast
+0,236,BJ's Sterling Heights
+0,293,BJ's Sterling Heights Roast
+0,78,BJ's Stockton
+0,430,BJ's Stockton Roast
+0,62,BJ's Sugar Land
+0,268,BJ's Sugarland Roast
+0,56,BJ's Summerlin
+0,415,BJ's Summerlin Roast
+0,84,BJ's Sunset Valley
+0,326,BJ's Sunset Valley Roast
+0,95,BJ's Tacoma
+0,438,BJ's Tacoma Roast
+0,148,BJ's Tallahassee
+0,469,BJ's Tallahassee Roast
+0,303,BJ's Tallahassee Thighway
+0,229,BJ's Taylor
+0,289,BJ's Taylor Roast
+0,24,BJ's Temecula
+0,373,BJ's Temecula Roast
+0,83,BJ's Temple
+0,325,BJ's Temple Roast
+0,6,BJ's Test Lab
+0,307,BJ's Test Lab Fiji
+0,205,BJ's Test Lab Paris
+0,276,BJ's Test Lab Thighway
+0,211,BJ's Teterboro
+0,488,BJ's Teterboro Roast
+0,105,BJ's The Rim
+0,332,BJ's The Rim Roast
+0,235,BJ's Toledo
+0,292,BJ's Toledo Roast
+0,237,BJ's Toms River
+0,500,BJ's Toms River Roast
+0,175,BJ's Towson
+0,471,BJ's Towson Roast
+0,82,BJ's Tri-County Mall
+0,283,BJ's Tri-County Mall Roast
+0,107,BJ's Tucson Broadway
+0,388,BJ's Tucson Broadway Roast
+0,63,BJ's Tucson Oracle
+0,383,BJ's Tucson Oracle Roast
+0,240,BJ's Tulsa
+0,241,BJ's Tulsa n/a
+0,362,BJ's Tulsa Roast
+0,119,BJ's Tuttle Crossing
+0,336,BJ's Tuttle Crossing Roast
+0,112,BJ's Tyler
+0,334,BJ's Tyler Roast
+0,66,BJ's Vacaville
+0,421,BJ's Vacaville Roast
+0,11,BJ's Valencia
+0,410,BJ's Valencia Roast
+0,141,BJ's Valley River
+0,464,BJ's Valley River Roast
+0,212,BJ's Valley Stream
+0,482,BJ's Valley Stream Roast
+0,197,BJ's Victorville
+0,258,BJ's Victorville Roast
+0,138,BJ's Vienna
+0,341,BJ's Vienna Roast
+0,151,BJ's Virginia Gateway
+0,344,BJ's Virginia Gateway Roast
+0,122,BJ's Waco
+0,337,BJ's Waco Roast
+0,230,BJ's Warwick
+0,497,BJ's Warwick Roast
+0,213,BJ's Wesley Chapel
+0,492,BJ's Wesley Chapel Roast
+0,305,BJ's Wesley Chapel Thighway
+0,15,BJ's West Covina
+0,249,BJ's West Covina Roast
+0,18,BJ's Westlake Village
+0,250,BJ's Westlake Village Roast
+0,67,BJ's Westminster
+0,422,BJ's Westminster Roast
+0,48,BJ's Westwood
+0,409,BJ's Westwood Roast
+0,129,BJ's Wichita
+0,455,BJ's Wichita Roast
+0,55,BJ's Willowbrook
+0,267,BJ's Willowbrook Roast
+0,198,BJ's Winston Salem
+0,485,BJ's Winston Salem Roast
+0,12,BJ's Woodland Hills
+0,248,BJ's Woodland Hills Roast
+0,224,BJ's Youngstown
+0,358,BJ's Youngstown Roast
+0,245,Roast
+0,246,Roast 2
+0,247,Roast Lab

@@ -75,7 +75,12 @@ class lineEditDemo(QWidget):
                 checkBoxButton.setText("Location CheckBoxes")
                 checkBoxButton.clicked.connect(self.on_click_checkbox)
                 flo.addRow(checkBoxButton)
-                
+
+                updateCheckbox = QPushButton(widget)
+                updateCheckbox.setText("Update Locations Checkboxes")
+                updateCheckbox.clicked.connect(self.on_click_update_checkbox)
+                flo.addRow(updateCheckbox)
+
                 #Price Tier 1
                 layout1 = QHBoxLayout()
                 self.priceTier1Checkbox = QCheckBox()
@@ -304,7 +309,14 @@ class lineEditDemo(QWidget):
                                 config.write(configfile)
                         os.system('python PriceTierRemover.py')
 
-                
+        def on_click_update_checkbox(self):
+                if not self.e2.text() == "":
+                        config['SectionOne']['UserName'] = self.e1.text()
+                        config['SectionOne']['Password'] = self.e2.text()
+                        with open('config.ini', 'w') as configfile:    # save
+                                config.write(configfile)        
+                        os.system('python updateLocationsCheck.py')                     
+
 
         def on_click_checkbox(self):
                 if not self.e2.text() == "":
