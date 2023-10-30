@@ -34,9 +34,7 @@ print("Welcome to the Price Tier Changer...")
 
 
 failureArray = []
-tierListSTR = input("Input which tiers you'd like to do, seperated by (,):")
-tierList = tierListSTR.split(",")
-#tierList = [4,5,8,9]
+
 
 #dataframe creation to seperate out price tiers
 df = pd.read_csv('PriceTiering.csv')
@@ -46,9 +44,17 @@ df = pd.read_csv('PriceTiering.csv')
 config = configparser.ConfigParser()
 config.read("config.ini")
 username = config['SectionOne']['UserName']
+password = config['SectionOne']['Password']
 actualItemNumber = config['SectionOne']['AttributeID']
 sideItemNumber = config['SectionOne']['SideItemNumber']
 
+tierList = []
+
+for x in range(9):
+    currentTier = 'tier' + str(x+1)
+    if config['EditTiers'][currentTier] == "true":
+        tierList.append(x+1)
+print(tierList)
 
 
 
@@ -79,19 +85,6 @@ window_before = browser.window_handles[0]
 
 
 #sign in, enters username from config and then asks for user input before continuing.
-
-
-#PW grab from text file
-def credential():
-    
-    try:
-        with open('test.txt', 'r') as myfile:
-            global password
-            password = myfile.read().replace('\n','')
-    except Exception as error:
-        print('Error',error)
-    else:
-        print('Password Entered')
 
 #sign in
 def signIn():
@@ -186,9 +179,6 @@ def indItemButton(individualItemNumber):
 
 
 
-    
-
-credential()
 signIn()
 indItemButton(sideItemNumber)
 getToMenu()

@@ -26,7 +26,7 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 
 username = config['SectionOne']['UserName']
-password = "M5r6-7jk"#config['SectionOne']['Password']
+password = config['SectionOne']['Password']
 actualItemNumber = config['SectionOne']['ItemNumber']
 chrome_options = webdriver.ChromeOptions()
 chrome_driver_service = Service(executable_path = 'chromedriver.exe')

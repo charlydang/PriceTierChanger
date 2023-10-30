@@ -1,5 +1,7 @@
 import csv
 
+#with open(r'\\172.16.22.101\\Users\\POS\\Documents\\Scripts\\PriceTierChanger2\\PriceTiering.csv') as csv_file:
+#with open(r'\\BJRI-FILE-004\\Departments\\IS\\Restaurant Systems\\Scripts\\PriceTiering.csv') as csv_file:
 with open(r'\\bjri-jump-001\\Menu_Team\\Scripts\\PriceTiering.csv') as csv_file:
 
 

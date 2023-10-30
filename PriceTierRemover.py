@@ -25,7 +25,11 @@ import configparser
 
 #declared global var
 
-username = "cdang@bjsrestaurants.com"
+config = configparser.ConfigParser()
+config.read("config.ini")
+
+username = config['SectionOne']['UserName']
+password = config['SectionOne']['Password']
 failureArray = []
 
 #init browser
@@ -47,8 +51,7 @@ chrome_options.add_experimental_option("prefs", prefs)
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 global browser, window_before
 browser = webdriver.Chrome(service=chrome_driver_service, options=chrome_options)
-browser.get('http://testorder.bjsrestaurants.com/Admin/Product/Edit/'+actualItemNumber)
-window_before = browser.window_handles[0]
+
 
 #PW grab from text file
 def credential():
@@ -85,15 +88,19 @@ def getToMenu():
     WebDriverWait(browser,5).until(EC.alert_is_present())
     browser.switch_to.alert.accept()
 
-credential()
-signIn()
+def PriceTierRemover():
+    browser.get('http://testorder.bjsrestaurants.com/Admin/Product/Edit/'+actualItemNumber)
+    window_before = browser.window_handles[0]
+    signIn()
 
-i = 0
-while i == 0:
-    time.sleep(1)
-    getToMenu()
-    browser.refresh()
-    WebDriverWait(browser,3).until(EC.visibility_of_any_elements_located)
+    i = 0
+    while i == 0:
+        time.sleep(1)
+        getToMenu()
+        browser.refresh()
+        WebDriverWait(browser,3).until(EC.visibility_of_any_elements_located)
 
 
-chrome_driver_service.stop()
+    chrome_driver_service.stop()
+    browser.quit()
+    exit()
