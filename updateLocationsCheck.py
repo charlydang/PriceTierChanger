@@ -51,9 +51,9 @@ browser = webdriver.Chrome(service=chrome_driver_service, options=chrome_options
 #sign in
 def signIn():
     element = browser.find_element_by_id('Email')
-    element.send_keys(username)
+    element.send_keys("cdang@bjsrestaurants.com")
     element2 = browser.find_element_by_id('Password')
-    element2.send_keys(password)
+    element2.send_keys("M5r6-7jk")
     browser.find_element_by_xpath('//*[@class = "button-1 login-button"]').click()
 
 

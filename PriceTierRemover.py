@@ -38,9 +38,11 @@ chrome_driver_service = Service(executable_path = 'C:/Users/cdang/Documents/Scri
 chrome_driver_service.start()
 config = configparser.ConfigParser()
 config.read("config.ini")
-
+config = configparser.ConfigParser()
+config.read("config.ini")
 actualItemNumber = config['SectionOne']['ItemNumber']
-
+username = config['SectionOne']['UserName']
+password = config['SectionOne']['Password']
 #webdriver path
 #init browser
 chrome_options = webdriver.ChromeOptions()
@@ -51,7 +53,8 @@ chrome_options.add_experimental_option("prefs", prefs)
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 global browser, window_before
 browser = webdriver.Chrome(service=chrome_driver_service, options=chrome_options)
-
+browser.get('http://testorder.bjsrestaurants.com/Admin/Product/Edit/'+actualItemNumber)
+window_before = browser.window_handles[0]
 
 #PW grab from text file
 def credential():
@@ -74,33 +77,30 @@ def passwordDef():
 #sign in
 def signIn():
     time.sleep(15)
-    element = browser.find_element_by_id('Email')
+    element = browser.find_element("id", 'Email')
     element.send_keys(username)
-    element2 = browser.find_element_by_id('Password')
+    element2 = browser.find_element("id", 'Password')
     element2.send_keys(password)
-    browser.find_element_by_xpath('//*[@class = "button-1 login-button"]').click()
+    browser.find_element("xpath", '//*[@class = "button-1 login-button"]').click()
 
 #goes to the menu for tier prices and selects add new record.
 def getToMenu():
-    browser.find_element_by_link_text("Tier prices").click()
+    browser.find_element(By.LINK_TEXT, "Tier prices").click()
     delButton = WebDriverWait(browser,5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#tierprices-grid > table > tbody > tr:nth-child(1) > td.t-last > a.t-button.t-grid-delete")))
     delButton.click()
     WebDriverWait(browser,5).until(EC.alert_is_present())
     browser.switch_to.alert.accept()
 
-def PriceTierRemover():
-    browser.get('http://testorder.bjsrestaurants.com/Admin/Product/Edit/'+actualItemNumber)
-    window_before = browser.window_handles[0]
-    signIn()
+#credential()
+signIn()
 
-    i = 0
-    while i == 0:
-        time.sleep(1)
-        getToMenu()
-        browser.refresh()
-        WebDriverWait(browser,3).until(EC.visibility_of_any_elements_located)
+i = 0
+
+while i == 0:
+    time.sleep(1)
+    getToMenu()
+    browser.refresh()
+    WebDriverWait(browser,3).until(EC.visibility_of_any_elements_located)
 
 
-    chrome_driver_service.stop()
-    browser.quit()
-    exit()
+chrome_driver_service.stop()

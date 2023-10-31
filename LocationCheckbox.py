@@ -29,7 +29,7 @@ username = config['SectionOne']['UserName']
 password = config['SectionOne']['Password']
 actualItemNumber = config['SectionOne']['ItemNumber']
 chrome_options = webdriver.ChromeOptions()
-chrome_driver_service = Service(executable_path = 'chromedriver.exe')
+chrome_driver_service = Service(executable_path = 'C:/Users/cdang/Documents/Scripts/PriceTierChanger2/chromedriver.exe')
 chrome_driver_service.start()
 #webdriver path
 prefs = {"profile.default_content_setting_values.notifications": 2}
