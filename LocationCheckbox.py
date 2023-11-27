@@ -47,23 +47,23 @@ browser = webdriver.Chrome(service=chrome_driver_service, options=chrome_options
 
 #sign in
 def signIn():
-    element = browser.find_element_by_id('Email')
+    element = browser.find_element(By.ID, 'Email')
     element.send_keys(username)
-    element2 = browser.find_element_by_id('Password')
+    element2 = browser.find_element(By.ID, 'Password')
     element2.send_keys(password)
-    browser.find_element_by_xpath('//*[@class = "button-1 login-button"]').click()
+    browser.find_element(By.XPATH, '//*[@class = "button-1 login-button"]').click()
 
 
 #goes to the menu for tier prices and selects add new record.
 def getToLocations():
-    browser.find_element_by_link_text("Locations").click()
+    browser.find_element(By.LINK_TEXT, "Locations").click()
 
 #Selects the locations if they have a 1 next to their name
 def checkLocations (siteValue):
     try:
         print("Finding value at"+siteValue)
-        if not browser.find_element_by_xpath("//input[@value="+siteValue+" and @type='checkbox']").is_selected():
-            browser.find_element_by_xpath("//input[@value="+siteValue+" and @type='checkbox']").click()
+        if not browser.find_element(By.XPATH, "//input[@value="+siteValue+" and @type='checkbox']").is_selected():
+            browser.find_element(By.XPATH, "//input[@value="+siteValue+" and @type='checkbox']").click()
     except Exception as error:
         print('Error',error)
 
@@ -71,8 +71,8 @@ def checkLocations (siteValue):
 def unCheckLocations (siteValue):
     try:
         print("Finding value at"+siteValue)
-        if browser.find_element_by_xpath("//input[@value="+siteValue+" and @type='checkbox']").is_selected():
-            browser.find_element_by_xpath("//input[@value="+siteValue+" and @type='checkbox']").click()
+        if browser.find_element(By.XPATH, "//input[@value="+siteValue+" and @type='checkbox']").is_selected():
+            browser.find_element(By.XPATH, "//input[@value="+siteValue+" and @type='checkbox']").click()
     except Exception as error:
         print('Error',error)
         
@@ -80,7 +80,7 @@ def saveLocations():
     time.sleep(2)
     try:
 
-        browser.find_element_by_xpath("//input[@value='Save']").click()
+        browser.find_element(By.XPATH, "//input[@value='Save']").click()
     except Exception as error:
         print('Error',error)
 

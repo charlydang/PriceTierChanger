@@ -87,33 +87,33 @@ def passwordDef():
         print("Password has been entered", password)
 #sign in
 def signIn():
-    element = browser.find_element_by_id('Email')
+    element = browser.find_element(By.ID, 'Email')
     element.send_keys(username)
-    element2 = browser.find_element_by_id('Password')
+    element2 = browser.find_element(By.ID, 'Password')
     element2.send_keys(password)
-    browser.find_element_by_xpath('//*[@class = "button-1 login-button"]').click()
+    browser.find_element(By.XPATH, '//*[@class = "button-1 login-button"]').click()
 
 #goes to the menu for tier prices and selects add new record.
 def getToMenu():
-    browser.find_element_by_link_text("Tier prices").click()
-    browser.find_element_by_link_text("Add new record").click()
+    browser.find_element(By.LINK_TEXT, "Tier prices").click()
+    browser.find_element(By.LINK_TEXT, "Add new record").click()
 
 def selectAnOption(locationName):
     #dropdown menu, need to figure out a way to select options from dropdown menu.
     if locationName == "Mesa":
         locationName = "s "+locationName
     time.sleep(2)
-    browser.find_element_by_xpath('//*[@id="tierprices-gridform"]/table/tbody/tr[1]/td[1]/div/div').click()
+    browser.find_element(By.XPATH, '//*[@id="tierprices-gridform"]/table/tbody/tr[1]/td[1]/div/div').click()
     time.sleep(1)
-    parentElement = browser.find_element_by_xpath("//div[@class='t-popup t-group']")
-    childElement = parentElement.find_element_by_xpath(".//*[contains(text(),'"+locationName+"')]" )
+    parentElement = browser.find_element(By.XPATH, "//div[@class='t-popup t-group']")
+    childElement = parentElement.find_element(By.XPATH, ".//*[contains(text(),'"+locationName+"')]" )
     childElement.click()
 
 def enterAPrice():
     
-    priceEl = browser.find_element_by_id('Price1')
+    priceEl = browser.find_element(By.ID, 'Price1')
     priceEl.send_keys(priceEntry)
-    submitButton = browser.find_element_by_link_text("Insert")
+    submitButton = browser.find_element(By.LINK_TEXT, "Insert")
     submitButton.click()
 
 def loopF(thisDF):
