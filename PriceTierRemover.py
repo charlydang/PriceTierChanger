@@ -77,9 +77,9 @@ def passwordDef():
 #sign in
 def signIn():
     time.sleep(15)
-    element = browser.find_element("id", 'Email')
+    element = browser.find_element(By.ID, "Email")
     element.send_keys(username)
-    element2 = browser.find_element("id", 'Password')
+    element2 = browser.find_element(By.ID, "Password")
     element2.send_keys(password)
     browser.find_element("xpath", '//*[@class = "button-1 login-button"]').click()
 
