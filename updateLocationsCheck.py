@@ -50,9 +50,9 @@ browser = webdriver.Chrome(service=chrome_driver_service, options=chrome_options
 
 #sign in
 def signIn():
-    element = browser.find_element("id", 'Email')
+    element = browser.find_element(By.ID, 'Email')
     element.send_keys(username)
-    element2 = browser.find_element("id", 'Password')
+    element2 = browser.find_element(By.ID, 'Password')
     element2.send_keys(password)
     browser.find_element(By.XPATH, '//*[@class = "button-1 login-button"]').click()
 
@@ -134,7 +134,7 @@ def LocationCheckBoxRun():
     header = ['Check', 'Value', 'Location'] 
 
 
-    wtr = csv.writer(open ('PriceTieringNEW.csv', 'w'), delimiter=',', lineterminator='\n')
+    wtr = csv.writer(open ('PriceTiering' + actualItemNumber + '.csv', 'w'), delimiter=',', lineterminator='\n')
     wtr.writerow(header)
     for x in range(0, len(column1)) : wtr.writerow ([0,column2[x],column1[x]])
 

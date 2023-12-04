@@ -77,7 +77,7 @@ class lineEditDemo(QWidget):
                 flo.addRow(checkBoxButton)
 
                 updateCheckbox = QPushButton(widget)
-                updateCheckbox.setText("Update Locations Checkboxes")
+                updateCheckbox.setText("Create Checkboxes Template")
                 updateCheckbox.clicked.connect(self.on_click_update_checkbox)
                 flo.addRow(updateCheckbox)
 
